@@ -9,12 +9,12 @@ const RestaurantCard = styled(Card)`
 
 const RestaurantCardCover = styled(Card.Cover)`
   padding: 20px;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.ui.success}; ;
 `;
 
 const Title = styled(Text)`
   padding: 16px;
-  color: ${(props) => props.theme.colors.ui.primary};
+  color: ${(props) => props.theme.colors.ui.success};
 `;
 
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
