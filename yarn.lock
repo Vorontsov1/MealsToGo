@@ -1127,15 +1127,25 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@expo-google-fonts/inter@^0.2.3":
+  "integrity" "sha512-iHK9FI+dnE45X5c2Z5hSFwNH4zUWethizpbv3XUn0FIGw5jwvzriENz0a6wCdkI4/d+1QkurnHo5XHti7TbNJA=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/inter/-/inter-0.2.3.tgz"
+  "version" "0.2.3"
+
 "@expo-google-fonts/lato@^0.2.2":
   "integrity" "sha512-axw+QWJYyDHuj/W0364OFRu5MyNEU332up1bE6o4K7fP0e0mSDgocof7Eip4AP65SmP8zsPIR0LtJezORnkDBw=="
   "resolved" "https://registry.npmjs.org/@expo-google-fonts/lato/-/lato-0.2.2.tgz"
   "version" "0.2.2"
 
-"@expo-google-fonts/oswald@^0.2.2":
-  "integrity" "sha512-Gh/U8QeztHSjxHfayhNLqpdTSY6YTcplm0sI04Zia3LUSv66U3TItc1EzUWdSYBTb/BKBm88utUdJdwMtZ9a1Q=="
-  "resolved" "https://registry.npmjs.org/@expo-google-fonts/oswald/-/oswald-0.2.2.tgz"
-  "version" "0.2.2"
+"@expo-google-fonts/oswald@^0.2.3":
+  "integrity" "sha512-LQhPBNx3UuS6Ug4pyyoqYA9KtxW9FlOixGhAUZm9kue/7IufaGPGd/VkXyy2TpdCIzvpRcDTXu+GRPwEKEzUSw=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/oswald/-/oswald-0.2.3.tgz"
+  "version" "0.2.3"
+
+"@expo-google-fonts/source-code-pro@^0.2.3":
+  "integrity" "sha512-ZYnOfLf/yppfK942VEY0iH/hjplv7/oYDSCLrFo5yKPGSgeSG1nrg2kLT9VB6rvRSJ8k839kCB/0O/f1Qbe25g=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/source-code-pro/-/source-code-pro-0.2.3.tgz"
+  "version" "0.2.3"
 
 "@expo/apple-utils@0.0.0-alpha.37":
   "integrity" "sha512-/v7adya/u6GDBj7py+HsnKmA11VwG34z4/7peJdMfu8M3LZ2G14dsaxEqdndrCAuEyJ6gQ88sggjcjPjzQXdmg=="

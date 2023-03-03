@@ -4,8 +4,28 @@ import { ThemeProvider } from "styled-components/native";
 
 import { theme } from "./src/infrastructure/theme";
 import { RestaurantsScreen } from "./src/features/restaurants/screen/restaurants.screen";
+import {
+  useFonts as useOswald,
+  Oswald_400Regular,
+} from "@expo-google-fonts/oswald";
+import {
+  useFonts as useSourceCodePro,
+  SourceCodePro_700Bold,
+} from "@expo-google-fonts/source-code-pro";
 
 export default function App() {
+  const [oswaldLoaded] = useOswald({
+    Oswald_400Regular,
+  });
+
+   const [latoLoaded] = useSourceCodePro({
+     SourceCodePro_700Bold,
+   });
+  
+  if (!oswaldLoaded || !latoLoaded) {
+    return null;
+  }
+
   return (
     <>
       <ThemeProvider theme={theme}>
