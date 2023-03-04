@@ -58,7 +58,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     address = "10 random restaurant",
     isOpenNow = true,
     rating = 4,
-    isClosedTemporarily,
+    isClosedTemporarily = true,
   } = restaurant;
 
   const ratingArray = Array.from(new Array(Math.ceil(rating)));
